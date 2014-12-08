@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adc0508d-d6c2-43d2-999f-13ec276fe4cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deploy/roles/app/files/Simple Spark App-assembly-1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/hosts" afterPath="$PROJECT_DIR$/deploy/hosts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy/roles/app/tasks/main.yml" afterPath="$PROJECT_DIR$/deploy/roles/app/tasks/main.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simpleSparkApp.iws" afterPath="$PROJECT_DIR$/simpleSparkApp.iws" />
     </list>
     <ignored path="simpleSparkApp.iws" />
@@ -116,8 +114,8 @@
       <file leaf-file-name="site.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy/site.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -127,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/deploy/hosts">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <caret line="0" column="42" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+              <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -892,7 +890,7 @@
       <workItem from="1417279775688" duration="8000" />
       <workItem from="1417960445737" duration="7245000" />
       <workItem from="1418002671310" duration="16000" />
-      <workItem from="1418038011853" duration="5181000" />
+      <workItem from="1418038011853" duration="5509000" />
     </task>
     <task id="LOCAL-00001" summary="add config to different env &amp; add assembly plugin">
       <created>1418050396335</created>
@@ -900,11 +898,17 @@
       <option name="project" value="LOCAL" />
       <updated>1418050396335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="host ip is set by environment variable">
+      <created>1418051531627</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1418051531627</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21001000" />
+    <option name="totallyTimeSpent" value="21329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -956,7 +960,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="add config to different env &amp; add assembly plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="add config to different env &amp; add assembly plugin" />
+    <MESSAGE value="host ip is set by environment variable" />
+    <option name="LAST_COMMIT_MESSAGE" value="host ip is set by environment variable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1306,14 +1311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/site.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe/config/srcs/config-1.2.1-sources.jar!/com/typesafe/config/ConfigFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="14110">
@@ -1398,10 +1395,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/site.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/deploy/hosts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="0" column="42" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+          <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
           <folding />
         </state>
       </provider>

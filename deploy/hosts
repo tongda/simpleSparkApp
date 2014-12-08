@@ -1,1 +1,1 @@
-uat     ansible_ssh_user=ec2-user     ansible_ssh_host="{{ lookup('env','APPLICATION_HOST') }}"
+uat     ansible_ssh_user=ec2-user     ansible_ssh_host="{{ lookup('env','APPLICATION_HOST') }}"     ansible_ssh_private_key_file=./data_lab.pem
