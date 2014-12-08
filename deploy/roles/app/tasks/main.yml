@@ -1,6 +1,6 @@
 ---
   - name: copy project file
-    copy: src=project dest=/home/ec2-user/
+    copy: src=Simple\ Spark\ App-assembly-1.0.jar dest=/home/ec2-user/
 
   - name: run app
     command: sbt run
