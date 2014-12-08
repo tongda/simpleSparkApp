@@ -3,6 +3,4 @@
     copy: src=Simple\ Spark\ App-assembly-1.0.jar dest=/home/ec2-user/
 
   - name: run app
-    command: sbt run
-    args:
-      chdir: /home/ec2-user/project/
+    command: java -jar /home/ec2-user/Simple\ Spark\ App-assembly-1.0.jar
