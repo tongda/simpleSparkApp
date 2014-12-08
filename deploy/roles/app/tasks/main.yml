@@ -1,6 +1,6 @@
 ---
   - name: copy project file
-    copy: src=Simple\ Spark\ App-assembly-1.0.jar dest=/home/ec2-user/
+    copy: src="Simple Spark App-assembly-1.0.jar" dest=/home/ec2-user/
 
   - name: run app
-    command: java -jar /home/ec2-user/Simple\ Spark\ App-assembly-1.0.jar
+    command: java -jar "/home/ec2-user/Simple Spark App-assembly-1.0.jar"
