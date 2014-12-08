@@ -5,5 +5,5 @@
   - name: run app
     command: java -jar "/home/ec2-user/Simple Spark App-assembly-1.0.jar"
     environment:
-      SPARK_CLUSTER_MASTER: 54.189.21.95
+      SPARK_CLUSTER_MASTER: spark://10.35.1.131:7077
       APPLICATION_ENV: uat
