@@ -94,8 +94,8 @@
       <file leaf-file-name="main.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deploy/roles/app/tasks/main.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31875" vertical-offset="0" max-vertical-offset="480">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.38958332" vertical-offset="0" max-vertical-offset="480">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/deploy/hosts">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-              <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
+              <caret line="0" column="95" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -859,7 +859,7 @@
       <workItem from="1417279775688" duration="8000" />
       <workItem from="1417960445737" duration="7245000" />
       <workItem from="1418002671310" duration="16000" />
-      <workItem from="1418038011853" duration="8201000" />
+      <workItem from="1418038011853" duration="8572000" />
     </task>
     <task id="LOCAL-00001" summary="add config to different env &amp; add assembly plugin">
       <created>1418050396335</created>
@@ -909,11 +909,17 @@
       <option name="project" value="LOCAL" />
       <updated>1418055313364</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add setting spark cluster master environment">
+      <created>1418056526542</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1418056526542</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24021000" />
+    <option name="totallyTimeSpent" value="24392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1378,14 +1384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deploy/hosts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/SimpleApp.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
@@ -1412,10 +1410,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deploy/hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="95" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/deploy/roles/app/tasks/main.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31875" vertical-offset="0" max-vertical-offset="480">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.38958332" vertical-offset="0" max-vertical-offset="480">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

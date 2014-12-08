@@ -5,5 +5,7 @@
   - name: run app
     command: java -jar "/home/ec2-user/Simple Spark App-assembly-1.0.jar"
     environment:
-      SPARK_CLUSTER_MASTER: spark://10.35.1.131:7077
-      APPLICATION_ENV: uat
+      SPARK_CLUSTER_MASTER: "{{ lookup('env','SPARK_CLUSTER_MASTER') }}"
+      APPLICATION_ENV: "{{ lookup('env','APPLICATION_ENV') }}"
+      AWS_ACCESS_KEY_ID: "{{ lookup('env','AWS_KEY') }}"
+      AWS_SECRET_ACCESS_KEY: "{{ lookup('env','AWS_SECRET_KEY') }}"
