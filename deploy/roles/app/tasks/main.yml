@@ -2,8 +2,7 @@
   - name: copy project file
     copy: src="Simple Spark App-assembly-1.0.jar" dest=/home/ec2-user/
 
-  - name: set spark cluster master environment
-    command: export SPARK_CLUSTER_MASTER=54.189.21.95
-
   - name: run app
     command: java -jar "/home/ec2-user/Simple Spark App-assembly-1.0.jar"
+    environment:
+      SPARK_CLUSTER_MASTER: 54.189.21.95
