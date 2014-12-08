@@ -837,7 +837,7 @@
       <workItem from="1417279775688" duration="8000" />
       <workItem from="1417960445737" duration="7245000" />
       <workItem from="1418002671310" duration="16000" />
-      <workItem from="1418038011853" duration="7082000" />
+      <workItem from="1418038011853" duration="7339000" />
     </task>
     <task id="LOCAL-00001" summary="add config to different env &amp; add assembly plugin">
       <created>1418050396335</created>
@@ -869,11 +869,23 @@
       <option name="project" value="LOCAL" />
       <updated>1418053803539</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add setting spark cluster master environment">
+      <created>1418054808423</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1418054808423</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add setting spark cluster master environment">
+      <created>1418055127364</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1418055127364</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22902000" />
+    <option name="totallyTimeSpent" value="23159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -929,7 +941,8 @@
     <MESSAGE value="add private key to access aws host" />
     <MESSAGE value="change the way to run app" />
     <MESSAGE value="fix file looking up" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix file looking up" />
+    <MESSAGE value="add setting spark cluster master environment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add setting spark cluster master environment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
