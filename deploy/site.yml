@@ -1,0 +1,5 @@
+---
+  - hosts: uat
+    roles:
+      - scala
+      - app

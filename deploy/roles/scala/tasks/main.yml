@@ -1,0 +1,12 @@
+---
+
+  - name: install openjdk 7
+    yum: name=java-1.7.0-openjdk.x86_64 state=latest
+    sudo: yes
+
+  - name: copy sbt install file
+    copy: src=sbt-0.13.7.rpm dest=/home/ec2-user/
+
+  - name: install sbt
+    yum: name=/home/ec2-user/sbt-0.13.7.rpm state=present
+    sudo: yes

@@ -6,10 +6,10 @@ import org.apache.spark.SparkConf
 object SimpleApp {
   def main(args: Array[String]) {
     val config = ConfigFactory.load()
-    val logFile = "s3n://tw-data-lab/tongda/simpleSparkApp/README.md"
+    val logFile = config.getString(config.getString("env") + ".data")
     val conf = new SparkConf()
       .setAppName("Simple Application")
-      .setMaster(config.getString("spark-cluster.master"))
+      .setMaster(config.getString(config.getString("env") + ".spark-cluster.master"))
     val sc = new SparkContext(conf)
     val logData = sc.textFile(logFile, 2).cache()
     val numAs = logData.filter(line => line.contains("a")).count()

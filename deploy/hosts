@@ -1,0 +1,1 @@
+uat     ansible_ssh_user=ec2-user     ansible_ssh_host=54.149.58.29

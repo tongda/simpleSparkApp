@@ -1,0 +1,8 @@
+---
+  - name: copy project file
+    copy: src=project dest=/home/ec2-user/
+
+  - name: run app
+    command: sbt run
+    args:
+      chdir: /home/ec2-user/project/
